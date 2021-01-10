@@ -181,7 +181,7 @@
 </style>
 
 <script type="text/babel">
-import Element from '@wujc/components'
+import Element from '@cgone/components'
 import { stripScript, stripStyle, stripTemplate } from '../util'
 const { version } = Element
 

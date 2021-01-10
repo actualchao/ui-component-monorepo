@@ -1,7 +1,7 @@
 /*
- * @Author: wujc
+ * @Author: cgone
  * @Date: 2020-11-29 17:05:53
- * @Last Modified by: wujc
+ * @Last Modified by: cgone
  * @Last Modified time: 2021-01-10 15:27:39
  */
 import Vue from 'vue'
@@ -12,12 +12,12 @@ import demoBlock from './components/demo-block'
 import './demo-styles/index.scss'
 import './assets/styles/common.css'
 import './assets/styles/fonts/style.css'
-import '@wujc/theme'
+import '@cgone/theme'
 
 import VueRouter from 'vue-router'
 import elementUI from 'element-ui'
 
-import { CoImg } from '@wujc/components'
+import { CoImg } from '@cgone/components'
 
 console.log(CoImg)
 

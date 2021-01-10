@@ -12,7 +12,7 @@
     width: 61px;
     height: 50px;
     line-height: 80px;
-    background: url("../assets/images/wujc.png") center center;
+    background: url("../assets/images/cgone.png") center center;
     background-size: 100% 100%;
   }
   .link-box {
@@ -33,7 +33,7 @@
     <header class="header" ref="header">
       <div class="container">
         <div class="logo"></div>
-        <span class="title">wujc-ui 前端组件库</span>
+        <span class="title">cgone-ui 前端组件库</span>
         <div class="link-box">
           <!-- <AlgoliaSearch></AlgoliaSearch> -->
         </div>

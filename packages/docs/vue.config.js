@@ -4,7 +4,7 @@ module.exports = {
   configureWebpack: {
     resolve: {
       alias: {
-        // '@wujc/components': path.resolve(__dirname, '../components/src')
+        // '@cgone/components': path.resolve(__dirname, '../components/src')
       }
 
     },

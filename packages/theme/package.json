@@ -1,5 +1,5 @@
 {
-  "name": "@wujc/theme",
+  "name": "@cgone/theme",
   "version": "0.0.0",
   "description": "emelent-ui basic theme",
   "main": "lib/index.css",
@@ -17,7 +17,7 @@
     "element",
     "theme"
   ],
-  "author": "wujc",
+  "author": "cgone",
   "license": "ISC",
   "devDependencies": {
     "gulp": "^4.0.0",
