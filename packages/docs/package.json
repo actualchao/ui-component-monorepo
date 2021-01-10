@@ -1,13 +1,13 @@
 {
-  "name": "@cgone/docs",
+  "name": "@wujc/docs",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve"
   },
   "dependencies": {
-    "@cgone/components": "0.0.0",
-    "@cgone/theme": "0.0.0",
+    "@wujc/components": "0.0.0",
+    "@wujc/theme": "0.0.0",
     "core-js": "^3.6.5",
     "element-ui": "2.14.1",
     "vue": "^2.6.11",

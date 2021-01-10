@@ -2,7 +2,7 @@
  * @Author: wujc
  * @Date: 2020-11-29 17:05:53
  * @Last Modified by: wujc
- * @Last Modified time: 2021-01-10 15:05:01
+ * @Last Modified time: 2021-01-10 15:27:39
  */
 import Vue from 'vue'
 import App from './app.vue'
@@ -12,12 +12,12 @@ import demoBlock from './components/demo-block'
 import './demo-styles/index.scss'
 import './assets/styles/common.css'
 import './assets/styles/fonts/style.css'
-import '@cgone/theme'
+import '@wujc/theme'
 
 import VueRouter from 'vue-router'
 import elementUI from 'element-ui'
 
-import { CoImg } from '@cgone/components'
+import { CoImg } from '@wujc/components'
 
 console.log(CoImg)
 
@@ -30,7 +30,7 @@ Vue.use(VueRouter)
 Vue.use(elementUI)
 
 const routes = [
-  { path: '/upload', component: () => import('./upload.md') }
+  { path: '/', component: () => import('./upload.md') }
 ]
 
 // 3. 创建 router 实例，然后传 `routes` 配置

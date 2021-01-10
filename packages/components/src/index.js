@@ -1,7 +1,7 @@
 import CoImg from './packages/img'
 import CoUpload from './packages/upload'
 
-import '@cgone/theme'
+import '@wujc/theme'
 
 const components = {
   CoImg,

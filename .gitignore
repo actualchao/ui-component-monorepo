@@ -4,3 +4,4 @@ lib
 node_modules
 yarn.lock
 oackage_lock.json
+yarn-error.log

@@ -1,11 +1,10 @@
 const path = require('path')
-console.log(path.resolve(__dirname, './md-loader/index.js'), '===========')
 
 module.exports = {
   configureWebpack: {
     resolve: {
       alias: {
-        // '@cgone/components': path.resolve(__dirname, '../components/src')
+        // '@wujc/components': path.resolve(__dirname, '../components/src')
       }
 
     },

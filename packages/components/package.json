@@ -1,5 +1,5 @@
 {
-  "name": "@cgone/components",
+  "name": "@wujc/components",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "main": "dist/components.common.js",
   "dependencies": {
-    "@cgone/theme": "0.0.0",
+    "@wujc/theme": "0.0.0",
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",

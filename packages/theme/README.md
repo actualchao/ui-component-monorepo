@@ -1,4 +1,4 @@
-# theme-cgone
+# theme-wujc
 > element component chalk theme.
 
 基础组件默认样式包
@@ -6,19 +6,19 @@
 
 ## Installation
 ```shell
-npm i theme-cgone -S
+npm i theme-wujc -S
 ```
 
 ## Usage
 
 Use Sass import
 ```css
-@import 'theme-cgone';
+@import 'theme-wujc';
 ```
 
 Or Use webpack
 ```javascript
-import 'theme-cgone';
+import 'theme-wujc';
 ```
 
 ## 1.按需引入 
@@ -41,7 +41,7 @@ npm install babel-plugin-component -D
       "component",
       {
         "libraryName": "element-ui",
-        "styleLibraryName": "~node_modules/theme-cgone/lib" //修改为我们的样式包路径
+        "styleLibraryName": "~node_modules/theme-wujc/lib" //修改为我们的样式包路径
       }
     ]
   ]
@@ -50,15 +50,15 @@ npm install babel-plugin-component -D
 
 
 ## 2.在项目中改变 SCSS 变量
-`theme-cgone` 使用 SCSS 编写，如果你的项目也使用了 SCSS，那么可以直接在项目中改变 `theme-cgone` 的样式变量。新建一个样式文件，例如 `variables.scss`，写入以下内容：
+`theme-wujc` 使用 SCSS 编写，如果你的项目也使用了 SCSS，那么可以直接在项目中改变 `theme-wujc` 的样式变量。新建一个样式文件，例如 `variables.scss`，写入以下内容：
 ```html
 /* 改变主题色变量 */
 $--color-primary: teal;
 
 /* 改变 icon 字体路径变量，必需 */
-$--font-path: '~theme-cgone/src/fonts';
+$--font-path: '~theme-wujc/src/fonts';
 
-@import "~theme-cgone/src/index";
+@import "~theme-wujc/src/index";
 ```
 
 之后，在项目的入口文件中，直接引入以上样式文件即可（无需引入 Element 编译好的 CSS 文件）：
@@ -81,7 +81,7 @@ Vue.use(Element)
       "component",
       {
         "libraryName": "element-ui",
-        // "styleLibraryName": "~node_modules/theme-cgone/lib"
+        // "styleLibraryName": "~node_modules/theme-wujc/lib"
         "style": false
       }
     ]

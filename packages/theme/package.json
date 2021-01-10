@@ -1,5 +1,5 @@
 {
-  "name": "@cgone/theme",
+  "name": "@wujc/theme",
   "version": "0.0.0",
   "description": "emelent-ui basic theme",
   "main": "lib/index.css",
