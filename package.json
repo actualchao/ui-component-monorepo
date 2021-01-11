@@ -8,7 +8,8 @@
     "dev:doc": "node ./scripts/dev.js"
   },
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "projects/*"
   ],
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
