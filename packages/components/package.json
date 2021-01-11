@@ -1,7 +1,6 @@
 {
   "name": "@cgone/components",
   "version": "0.0.0",
-  "private": true,
   "scripts": {
     "build": "vue-cli-service build --target lib ./src/index.js",
     "dev": "vue-cli-service build --target lib ./src/index.js --watch"

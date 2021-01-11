@@ -3,5 +3,7 @@ dist
 lib
 node_modules
 yarn.lock
-oackage_lock.json
+package_lock.json
 yarn-error.log
+lerna-error.log
+lerna-debug.log
